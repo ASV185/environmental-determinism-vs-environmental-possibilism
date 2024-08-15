@@ -16,8 +16,8 @@ h2 {
 h3 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -60,6 +60,29 @@ p {
 
 .card a:hover {
     color: white;
+}
+
+.back-link a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color:black;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+    color:blue;
+}
+
+.credit-section { 
+    font-family: "Noto Sans Gurmukhi", system-ui;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-size: 21px; 
+    font-style: normal;
 }
 
 
