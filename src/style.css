@@ -29,27 +29,38 @@ p {
   font-style: normal;
 }
 
-.card-title {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 25px;
-  font-weight: 600;
-  font-style: normal;
-}
-
 .card:hover {
-border: none;
-cursor: pointer;
-color: white;
-background: hsla(173, 89%, 70%, 1);
-
-background: linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6FF7E8", endColorstr="#1F7EA1", GradientType=1 );
+    border: none;
+    cursor: pointer;
+    background: hsla(173, 89%, 70%, 1);
+    
+    background: linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6FF7E8", endColorstr="#1F7EA1", GradientType=1 );
 }
+
+.card-title {
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card-title a {
+    color:black;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: white;
+}
+
 
 
