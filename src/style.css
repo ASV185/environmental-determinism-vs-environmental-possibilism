@@ -85,6 +85,31 @@ p {
     font-style: normal;
 }
 
+.light-card{
+    margin: 200px;
+}
+
+.light-card:hover {
+    background-color: white;
+}
+
+.card-header {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+} 
+
+.card-body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 21px;
+    font-weight: 600;
+    font-style: normal; 
+}
+
+
 
 
 
