@@ -1,7 +1,13 @@
-let environmentalReaction = prompt("Is skin color in India an example of Environmental Determinism or Environmental Possibilism? (Capitalize first letter of each word)" );
-
-if (environmentalReaction === "Environmental Determinism") {
-  alert("Yes, congratulations!");
-} else {
-  alert("No, you should try it again.");
+function getSelectedAnswer(event){
+  if (event.target.value.length > 0) {
+    if (event.target.value === "determinism") {
+      alert("Yes, congratulations!");
+    }
+    if (event.target.value === "possibilism") {
+      alert("No, you should try again.");
+    }
+  }
 }
+
+let form = document.querySelector("#question-form");
+form.addEventListener("change", getSelectedAnswer);
