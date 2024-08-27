@@ -90,7 +90,20 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
+@media (max-width: 576.98px) {
+    .card {
+        padding: 15px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+}
 
+@media (min-width: 576.98px) {
+    .card {
+        padding: 30px;
+    }
+}
 
 @media (max-width: 991.98px) { 
     .places-grid {
