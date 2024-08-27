@@ -85,28 +85,19 @@ p {
     font-style: normal;
 }
 
-.light-card{
-    margin: 200px;
+.places-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 
-.light-card:hover {
-    background-color: white;
-}
 
-.card-header {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 26px;
-    font-weight: 600;
-    font-style: normal;
-} 
+@media (max-width: 991.98px) { 
+    .places-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
-.card-body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 21px;
-    font-weight: 600;
-    font-style: normal; 
+    }   
 }
 
 
