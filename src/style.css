@@ -97,6 +97,9 @@ p {
     .card-title {
         font-size: 20px;
     }
+    h1 {
+        font-size: 47px;
+    }
 }
 
 @media (min-width: 576.98px) {
