@@ -100,6 +100,17 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
+
+.github-link {
+    text-decoration: none;
+    color:white;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+    color:blue;
+}
+
 @media (max-width: 576.98px) {
     .card {
         padding: 15px;
