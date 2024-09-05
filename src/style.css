@@ -62,6 +62,10 @@ p {
     color: white;
 }
 
+.sources {
+    font-size: 20px;
+}
+
 .back-link {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -91,7 +95,7 @@ p {
     font-family: "Noto Sans Gurmukhi", system-ui;
     font-optical-sizing: auto;
     font-weight:600;
-    font-size: 21px; 
+    font-size: 17px; 
     font-style: normal;
 }
 
