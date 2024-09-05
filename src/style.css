@@ -62,6 +62,16 @@ p {
     color: white;
 }
 
+.back-link {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 23px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color:black;
+}
+
 .back-link a {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
